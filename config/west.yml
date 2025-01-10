@@ -18,8 +18,8 @@ manifest:
       url-base: https://github.com/infely
   projects:
     - name: zmk
-      remote: petejohanson
-      revision: power/domains-and-device-runtime
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
     - name: hammerbeam-slideshow
       remote: gpeye
