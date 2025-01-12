@@ -21,7 +21,7 @@
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
     };
 
-    zoom_in_out: behavior_sensor_rotate_mouse_wheel_up_down {
+    zoom_in_out: behavior_sensor_rotate_zoom_in_out {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&mt LCTRL MINUS>, <&mt LCTRL PLUS>;
