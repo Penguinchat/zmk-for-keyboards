@@ -62,13 +62,13 @@
 // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  {   |  }    |   4   |  5   |   6   |   -   |
 // |  F7   |  F8 | F9  | F10  |  F11 | F12  |                   |  |   |   UP  |   1   |  2   |   3   |   /   |
 // |       |     |     |      |      |      | RESET  |  | RESET |LEFT  | DOWN  | RIGHT |  0   |   .   |   *   |
-//                     |EXTON |EXTOFF|EXTTOG|        |  |       |      |       |       |
+//                     |EXTON |EXTOFF|      | EXTTOG |  |       |      |       |       |
             bindings = <
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                     &kp LPAR  &kp RPAR  &kp KP_N7 &kp KP_N8 &kp KP_N9  &kp KP_PLUS
 &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                           &kp LBRC  &kp RBRC  &kp KP_N4 &kp KP_N5 &kp KP_N7  &kp KP_MINUS
 &kp F7     &kp F8           &kp F9            &kp F10           &kp F11      &kp F12                          &kp PIPE  &kp UP    &kp KP_N1 &kp KP_N3 &kp KP_N4  &kp KP_DIVIDE
 &trans     &trans           &trans            &trans            &trans       &trans   &sys_reset  &sys_reset  &kp LEFT  &kp DOWN  &kp RIGHT &kp KP_N0 &kp KP_DOT &kp KP_MULTIPLY
-                                &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG  &trans      &trans      &trans    &trans    &trans
+                                &ext_power EP_ON &ext_power EP_OFF &trans &ext_power EP_TOG       &trans      &trans    &trans    &trans
             >;
 
              sensor-bindings = <&inc_dec_kp RIGHT LEFT &zoom_in_out>;
