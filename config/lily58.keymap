@@ -65,7 +65,7 @@
                                               &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
             >;
 
-             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         adjust_layer {
