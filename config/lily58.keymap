@@ -20,6 +20,12 @@
         tap-ms = <20>;
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
     };
+
+    zoom_in_out: behavior_sensor_rotate_mouse_wheel_up_down {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&mt LCTRL MINUS>, <&mt LCTRL PLUS>;
+    };
         // Activate ADJUST layer by pressing raise and lower
     conditional_layers {
         compatible = "zmk,conditional-layers";
@@ -65,7 +71,7 @@
                                               &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
             >;
 
-             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+             sensor-bindings = <&inc_dec_kp RIGHT LEFT &zoom_in_out>;
         };
 
         adjust_layer {
