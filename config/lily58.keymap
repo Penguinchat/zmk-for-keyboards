@@ -27,14 +27,6 @@
         bindings = <&kp LC(MINUS)>, <&kp LC(PLUS)>;
     };
         // Activate ADJUST layer by pressing raise and lower
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        adjust_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
     keymap {
         compatible = "zmk,keymap";
 
@@ -107,14 +99,14 @@
             >;
                     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &scroll_up_down>;
                 };
-         extra1 { status = "reserved"; };
-
-        extra2 { status = "reserved"; };
-
-        extra3 { status = "reserved"; };
-
-        extra4 { status = "reserved"; };
-
-        extra5 { status = "reserved"; };
+//         extra1 { status = "reserved"; };
+//
+  //      extra2 { status = "reserved"; };
+//
+  //      extra3 { status = "reserved"; };
+//
+  //      extra4 { status = "reserved"; };
+//
+  //      extra5 { status = "reserved"; };
     };
 };
