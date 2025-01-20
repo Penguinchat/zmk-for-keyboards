@@ -10,6 +10,7 @@ if SHIELD_LILY58_LEFT || SHIELD_LILY58_RIGHT
 
 config ZMK_SPLIT
     default y
+ENDIF
 
 if ZMK_DISPLAY
 
