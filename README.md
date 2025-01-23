@@ -1,6 +1,6 @@
 # zmk for keyboards
 这是一个存放有多个分体式键盘zmk固件源码以及已编译固件的仓库  
-corne sofle（RGB，choc） lily58（目前只有这几个，以后或许会有其他键盘放入）  
+corne sofle（RGB，choc） lily58 heiix（目前只有这几个，以后或许会有其他键盘放入）  
 本仓库固件所测试用pcb均来自[PandaKB外设](https://pandakb.taobao.com/shop/view_shop.htm?spm=a21n57.1.0.0.5d79523cNmnkU0&appUid=RAzN8HWMnqHhQPoqPWJj8vvpxQEUo4LsYqKaxNw4JRKQfkmLoFX)
 ## 仓库中的固件可能有以下功能
 ### key（基础按键功能）
