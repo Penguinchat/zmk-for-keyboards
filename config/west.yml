@@ -43,6 +43,6 @@ manifest:
       revision: main
     - name: prospector-zmk-module                 # <--- and these
       remote: penguinchat                         # <---
-      revision: support-nicenano 
+      revision: support_nicenano 
   self:
     path: config
