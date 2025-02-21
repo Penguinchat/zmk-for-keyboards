@@ -34,8 +34,6 @@
 / {
     chosen {
       zmk,battery = &vbatt;
-      zephyr,display = &oled;
-      zmk,underglow = &led_strip;
     };
 
     vbatt: vbatt {
