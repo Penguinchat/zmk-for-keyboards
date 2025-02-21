@@ -38,6 +38,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            display-name = "LAYER 0";
         };
 
         lower_layer {
@@ -56,6 +57,7 @@
             >;
 
              sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+             display-name = "LAYER 1";
         };
 
         adjust_layer {
@@ -73,15 +75,16 @@
                                   &trans           &trans           &trans           &trans            &trans           &trans  &trans &trans &trans &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            display-name = "LAYER 2";
         };
-         extra1 { status = "reserved"; };
+         extra1 { status = "reserved"; display-name = "LAYER 3";};
 
-        extra2 { status = "reserved"; };
+        extra2 { status = "reserved"; display-name = "LAYER 4";};
 
-        extra3 { status = "reserved"; };
+        extra3 { status = "reserved"; display-name = "LAYER 5";};
 
-        extra4 { status = "reserved"; };
+        extra4 { status = "reserved"; display-name = "LAYER 6";};
 
-        extra5 { status = "reserved"; };
+        extra5 { status = "reserved"; display-name = "LAYER 7";};
     };
 };
