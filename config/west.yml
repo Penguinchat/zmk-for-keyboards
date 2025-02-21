@@ -43,6 +43,6 @@ manifest:
       revision: main
     - name: prospector-zmk-module                 # <--- and these
       remote: tokyo2006                       # <---
-      revision: change_spi0 
+      revision: support_nicenano 
   self:
     path: config
