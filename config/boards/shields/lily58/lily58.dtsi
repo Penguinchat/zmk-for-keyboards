@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "lily58-layouts.dtsi"
-
+#include <dt-bindings/led/led.h>
 / {
     chosen {
         zmk,kscan = &kscan0;
