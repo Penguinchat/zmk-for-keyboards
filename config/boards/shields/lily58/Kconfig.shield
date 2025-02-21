@@ -1,8 +1,11 @@
-# Copyright (c) 2020 Pete Johanson
+# Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_LILY58_LEFT
-    def_bool $(shields_list_contains,lily58_left)
+config SHIELD_EYESLASH_SOFLE_CENTRAL_DONGLE
+    def_bool $(shields_list_contains,lily58_central_dongle)
 
-config SHIELD_LILY58_RIGHT
-    def_bool $(shields_list_contains,lily58_right)
+config SHIELD_EYESLASH_SOFLE_PERIPHERAL_LEFT
+    def_bool $(shields_list_contains,lily58_peripheral_left)
+
+config SHIELD_EYESLASH_SOFLE_PERIPHERAL_RIGHT
+    def_bool $(shields_list_contains,lily58_peripheral_right)
