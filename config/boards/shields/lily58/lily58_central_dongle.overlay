@@ -5,7 +5,7 @@
 *
 */
 
-#include "eyeslash_sofle.dtsi"
+#include "lily58.dtsi"
 
 /{
     chosen {
