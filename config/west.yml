@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/s6t
     - name: infely
       url-base: https://github.com/infely
+    - name: tokyo2006
+      url-base: https://github.com/tokyo2006
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -39,5 +41,8 @@ manifest:
     - name: nice-view-battery
       remote: infely
       revision: main
+    - name: prospector-zmk-module                 # <--- and these
+      remote: tokyo2006                          # <---
+      revision: support_nicenano  
   self:
     path: config
