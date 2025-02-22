@@ -1,7 +1,7 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: penguinchat
+      url-base: https://github.com/penguinchat
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: gpeye
@@ -17,9 +17,9 @@ manifest:
     - name: infely
       url-base: https://github.com/infely
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
+    - name: penguinchat
+      remote: zmk
+      revision: rgb
       import: app/west.yml
     - name: hammerbeam-slideshow
       remote: gpeye
