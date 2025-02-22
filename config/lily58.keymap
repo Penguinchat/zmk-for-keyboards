@@ -45,6 +45,7 @@
     , <&macro_release &mo 1>
     , <&macro_tap &rgb_ug RGB_EFF>;
         };
+};
     keymap {
         compatible = "zmk,keymap";
 
