@@ -20,10 +20,10 @@
         };
     };
         chosen {
-        zmk,rgb_ug = &rgb_ug;
+        zmk,rgb_ug = &underglow;
     };
 
-    rgb_ug: rgb_ug {
+    underglow: rgb_underglow {
         compatible = "zmk,rgb_underglow";
         label = "RGB_UNDERGLOW";
         animation = "spectrum";
