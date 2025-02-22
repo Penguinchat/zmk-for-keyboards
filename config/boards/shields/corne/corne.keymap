@@ -24,7 +24,7 @@
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
-                display = "LAYER 0"
+                display-name = "LAYER 0";
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
-                display = "LAYER 1"
+                display-name = "LAYER 1";
                 };
 
                 raise_layer {
@@ -53,7 +53,7 @@
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
-                display = "LAYER 3"
+                display-name = "LAYER 2";
                 };
         };
 };
