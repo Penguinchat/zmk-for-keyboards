@@ -41,3 +41,15 @@ endchoice
 endif # LVGL
 
 endif
+config ZMK_RGB_UNDERGLOW_EFF_START
+    int "Default RGB underglow effect on startup"
+    default 0
+    range 0 UNDERGLOW_EFFECT_NUMBER-1
+    help
+      The default effect for RGB underglow when the keyboard starts.
+      0: Solid
+      1: Breathe
+      2: Spectrum
+      3: Swirl
+      4: Rainbow
+      5: Double Bird
