@@ -26,7 +26,7 @@
     rgb_ug: rgb_ug {
         compatible = "zmk,rgb_underglow";
         label = "RGB_UNDERGLOW";
-        animation = “spectrum";
+        animation = "spectrum";
         layer-colors = <
             0 0 0    // 默认层：绿色
             255 0 0    // 第 1 层：红色
