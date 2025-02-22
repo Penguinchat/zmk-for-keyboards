@@ -17,8 +17,8 @@ manifest:
     - name: infely
       url-base: https://github.com/infely
   projects:
-    - name: penguinchat
-      remote: zmk
+    - name: zmk
+      remote: penguinchat
       revision: rgb
       import: app/west.yml
     - name: hammerbeam-slideshow
