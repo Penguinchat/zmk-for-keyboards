@@ -118,7 +118,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)   RC(4,7) RC(4,8) RC(4,9
 		spi-max-frequency = <4000000>;
 
 		/* WS2812 */
-		chain-length = <27>; /* There are per-key RGB, but the first 6 are underglow */
+		chain-length = <32>; /* There are per-key RGB, but the first 6 are underglow */
 		spi-one-frame = <0x70>;
 		spi-zero-frame = <0x40>;
 		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
