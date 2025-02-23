@@ -1,8 +1,8 @@
 file_format: "1"
-id: corne
-name: CORNE
+id: helix
+name: HELIX
 type: shield
-url: https://github.com/Bastardkb/TBK-Mini
+url: 
 requires: [Nice!Nano]
 exposes: [i2c_oled]
 features:
