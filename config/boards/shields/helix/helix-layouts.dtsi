@@ -77,7 +77,6 @@
      position_map {
           compatible = "zmk,physical-layout-position-map";
 
-          complete;
 
           layout1: layout1 {
                physical-layout = <&layout_0>;
