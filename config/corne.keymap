@@ -96,6 +96,7 @@
 &kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N  &kp M             &kp COMMA      &kp DOT          &kp FSLH            &kp ESC
                                            &kp TAB      &lt 1 SPACE       &lt 2 ENTER  &mo 3  &ltq 2 BACKSPACE  &kp BACKSPACE
             >;
+            display-name = "LAYER 0";
         };
 
         lower_layer {
@@ -105,6 +106,7 @@
 &ext_power EP_TOG       &trans  &trans  &trans  &trans  &trans   &trans     &trans           &trans     &trans  &trans   &trans
                              &trans  &trans  &trans   &trans     &kp RIGHT_SHIFT  &trans
             >;
+            display-name = "LAYER 1";
         };
 
         raise_layer {
@@ -114,6 +116,7 @@
 &trans  &kp DELETE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT          &trans    &trans    &trans    &trans     &trans  &trans
                                      &trans           &trans           &trans           &trans    &trans    &trans
             >;
+        display-name = "LAYER 2";
         };
 
         layer_3 {
@@ -123,18 +126,23 @@
 &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans        &trans        &trans  &trans  &trans  &trans
             >;
+        display-name = "LAYER 3";
         };
         extra1 {
             status = "reserved";
+                display-name = "LAYER 4";
         };
         extra2 {
             status = "reserved";
+                display-name = "LAYER 5";
         };
         extra3 {
             status = "reserved";
+                display-name = "LAYER 6";
         };
         extra4 {
             status = "reserved";
+                display-name = "LAYER 7";
         };
 
     };
