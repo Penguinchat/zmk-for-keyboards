@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "lily58.dtsi"
+#include "helix.dtsi"
 #include <dt-bindings/led/led.h>
 &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
@@ -25,9 +25,7 @@
         ;
 };
 
-&left_encoder {
-    status = "okay";
-};
+
 // oled,I2c
 &pinctrl {
        i2c0_default: i2c0_default {
