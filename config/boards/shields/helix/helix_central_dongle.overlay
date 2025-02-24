@@ -5,7 +5,7 @@
 *
 */
 
-#include "lily58.dtsi"
+#include "helix.dtsi"
 
 /{
     chosen {
