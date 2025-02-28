@@ -19,7 +19,7 @@ manifest:
   projects:
     - name: zmk
       remote: penguinchat
-      revision: rgb
+      revision: aa1
       import: app/west.yml
     - name: hammerbeam-slideshow
       remote: gpeye
